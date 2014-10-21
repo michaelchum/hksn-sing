@@ -6,7 +6,7 @@ body {background: #fff url(../images/bg_dark.png)}
 
 .page_wrap {margin: 25px auto 25px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
 
-.header_nav {background: #FE563B; padding: 10px 0 2px; margin-bottom: 25px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4); z-index: 999}
+.header_nav {background: #eb088d; padding: 10px 0 2px; margin-bottom: 25px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4); z-index: 999}
 
 .header_nav_fullwidth {background: #FE563B; padding: 10px 0 2px; margin-bottom: 25px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
 
@@ -62,7 +62,7 @@ dl.tabs dd.active {
 .nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 5px 25px}
 .nav-bar > li:last-child {border: 0; box-shadow: none}
 .nav-bar > li.active:hover { background: #f34c31; cursor: default; }{}
-.nav-bar > li:hover { background: #f34c31; color: #000;         
+.nav-bar > li:hover { background: #eb088d; color: #000;         
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
         -ms-transition: all .2s ease-in-out;
@@ -106,7 +106,7 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f34c31; color: #f
 
 .footer_menu {text-align:center; border-top: 1px dashed #999; margin: 25px 0 0; padding: 20px 0}
 .footer_menu li {display: inline; list-style: none; margin-right: 20px}
-.footer_menu li a {color: #fe563b}
+.footer_menu li a {color: #eb088d}
 
 
 
