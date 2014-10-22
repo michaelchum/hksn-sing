@@ -232,3 +232,6 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f34c31; color: #f
 
 .col_fluid {width: 32%}
 .col_fluid img {width: 100%}
+
+/* image preloading */
+div #preload { display: none; }

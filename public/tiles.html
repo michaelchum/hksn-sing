@@ -26,7 +26,7 @@
   <script src="javascripts/modernizr.foundation.js"></script>
   
   <!-- Google fonts -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -35,6 +35,18 @@
 
 </head>
 <body>
+
+<div id="preload">
+   <img src='images/sing/Andrea.jpg' width="1" height="1" alt="Image 01" />
+   <img src="images/sing/Chester.jpg" width="1" height="1" alt="Image 02" />
+   <img src="images/sing/Han.jpg" width="1" height="1" alt="Image 03" />
+   <img src="images/sing/Jennifer.jpg" width="1" height="1" alt="Image 04" />
+   <img src="images/sing/Joy.jpg" width="1" height="1" alt="Image 05" />
+   <img src="images/sing/Kevin.jpg" width="1" height="1" alt="Image 06" />
+   <img src="images/sing/Mona.jpg" width="1" height="1" alt="Image 07" />
+   <img src="images/sing/Shi.jpg" width="1" height="1" alt="Image 08" />
+   <img src="images/sing/Yun.jpg" width="1" height="1" alt="Image 09" />
+</div>
 
 <div style="clear:both; height:25px"></div>
         
@@ -105,7 +117,7 @@
 		<div id="container">
         
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Andrea.jpg'/></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Andrea</strong></h4>
@@ -117,7 +129,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="780">
+			<div height="780" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Chester.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Chester</strong></h4>
@@ -129,7 +141,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Han.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Han</strong></h4>
@@ -141,7 +153,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' class="780">
+			<div height="780" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Jennifer.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Jennifer</strong></h4>
@@ -153,7 +165,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Joy.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Joy</strong></h4>
@@ -165,7 +177,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Kevin.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Kevin</strong></h4>
@@ -177,7 +189,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Mona.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Mona</strong></h4>
@@ -189,7 +201,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 				<a href="#"><img src='images/sing/Shi.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Shi</strong></h4>
@@ -201,7 +213,7 @@
 			</div>
             
 			<!-- photo -->
-			<div class='box_fluid col_fluid' height="468">
+			<div height="468" class='box_fluid col_fluid'>
 			 <a href="#"><img src='images/sing/Yun.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Yun</strong></h4>
@@ -222,7 +234,7 @@
             
 			<!-- photo -->
 			<div class='box_fluid col_fluid' height="468">
-				<a href="#"><img src='images/sing/Kevin.jpg' height="373"/></a>
+				<a href="#"><img src='images/sing/Kevin.jpg' /></a>
                 <div class='box_fluid_inner'>
                     <h4><strong>Adipiscing Elit</strong></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ligula vel felis pretium gravida...</p>
@@ -266,6 +278,14 @@
     });
     
   });
+
+  // Refresh the page once
+  window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+  }
   //]]>
   </script>
 		<!-- END Masonry -->
