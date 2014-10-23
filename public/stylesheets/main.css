@@ -16,7 +16,7 @@ body {background: #fff url(../images/bg_dark.png)}
 .blog_post {}
 .post_meta {font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; text-align: center; color: #999}
 p {color: #000; font-size: 13px}
-p.welcome_text {font-size: 180%; text-align:center; font-weight: normal; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic}
+p.welcome_text {font-size: 180%; text-align:center; font-weight: normal; font-family:"Open Sans Condensed", "Times New Roman", Times, sans-serif; font-style:italic}
 
 h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .heading_dots {background: url(../images/heading_dots_grey.png) repeat-x center}
